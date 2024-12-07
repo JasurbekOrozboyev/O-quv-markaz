@@ -556,9 +556,12 @@ footer{
 }
 .the--end{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 20px;
     padding-top: 50px;
+}
+.the--end .logo{
+    margin-left: 50px;
 }
 .the--end .logo img{
     width: 103px;
@@ -606,11 +609,13 @@ footer{
 .the--end .pochta .logo ul{
     display: flex;
     list-style: none;
-    font-size: 20px;
-    gap: 15px;
+    font-size: 18px;
+    margin-left: -120px;
+    gap: 10px;
 }
 .opening--date p{
     font-size: 24px;
+    text-align: center;
 
 }
 
